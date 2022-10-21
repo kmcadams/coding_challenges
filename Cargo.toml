@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "arithmetic",
+    "math_examples"
+]
