@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "arithmetic",
+    "querying",
     "math_examples"
 ]

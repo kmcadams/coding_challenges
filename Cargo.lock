@@ -12,3 +12,7 @@ version = "0.1.0"
 dependencies = [
  "arithmetic",
 ]
+
+[[package]]
+name = "querying"
+version = "0.1.0"
