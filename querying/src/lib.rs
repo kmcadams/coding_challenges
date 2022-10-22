@@ -1,15 +1,3 @@
-// pub fn unique<T: Ord>(mut list: Vec<T>) -> Vec<T> {
-//     list.sort();
-//     list.dedup();
-//     list
-// }
-
-// pub fn extract_unique<T: ?Sized>(list: dyn Iterator<Item=T>) -> Vec<T> {
-//     let mut encountered_items = Vec::new();
-//     list.into_iter().map(|item| if !encountered_items.iter().any(item){encountered_items.push(item);});
-//     encountered_items
-// }
-
 pub fn unique<T:PartialEq, I: IntoIterator<Item=T>>(list: I) -> Vec<T>{
     let mut encountered: Vec<T> = Vec::new();
     
