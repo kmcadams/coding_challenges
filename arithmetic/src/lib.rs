@@ -1,6 +1,7 @@
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
+
 pub fn median(mut list: Vec<f32>) -> Option<f32>{
     if list.is_empty(){
         return None
@@ -44,7 +45,7 @@ mod tests{
     }
 
     #[test]
-    fn it_works() {
+    fn ut_add() {
         let result = add(2, 2);
         assert_eq!(result, 4);
     }

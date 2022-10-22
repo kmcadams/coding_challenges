@@ -16,3 +16,7 @@ dependencies = [
 [[package]]
 name = "querying"
 version = "0.1.0"
+
+[[package]]
+name = "utilities"
+version = "0.1.0"

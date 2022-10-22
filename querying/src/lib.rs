@@ -1,7 +1,8 @@
+
+//implement function to find any unique items in an iterable list and return them, preserving order
 pub fn unique<T:PartialEq, I: IntoIterator<Item=T>>(list: I) -> Vec<T>{
     let mut encountered: Vec<T> = Vec::new();
-    
-    // // list.into_iter().map(|item| if !encountered.contains(&item){encountered.push(item)});
+
     for item in list{
         if !encountered.contains(&item){
             encountered.push(item)
